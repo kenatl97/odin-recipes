@@ -1,0 +1,29 @@
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.bg{
+    background-color: black;
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+ul{
+    text-align:center;
+}
+
+li{
+    text-align: center;;
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+}
