@@ -51,9 +51,11 @@ h1{
 #back{
     text-align: left;
 }
-}
 u{
     text-decoration-color: #e2b367;
+}
+.linkc{
+    text-decoration-color: #e2b367
 }
 /* back is the back button */
 /* End of index styles */ 
