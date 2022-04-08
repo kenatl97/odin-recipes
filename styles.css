@@ -1,4 +1,4 @@
-/* styles below affects all pages */
+/* styles below affect all pages */
 /* bg = body */
 .bg{
     background-color: black;
@@ -20,20 +20,12 @@ ol li::marker {
 ul li::marker {
     color: #e2b367;
 }
-/* center = image */
-.center{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    transform: translateX(1%);
-}
 a{
     color: white;
 }
 li{
     text-align: left;
-    margin: 10px 0;
+    margin: 5px 0;
 }
 /* Header styles */
 h1,
@@ -55,7 +47,8 @@ u{
     text-decoration-color: #e2b367;
 }
 .linkc{
-    text-decoration-color: #e2b367
+    text-decoration-color: #e2b367;
+    font-size: large;
 }
 /* back is the back button */
 /* End of index styles */ 
@@ -64,6 +57,15 @@ u{
     text-align:center;
     list-style-position: inside;
     transform: translateX(-1%);
+}
+/* center = image */
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    transform: translateX(0.5%);
+    margin-bottom: 1%;
 }
 /* Start of LASAGNA */ 
 /* las = lasagna image*/
@@ -74,10 +76,6 @@ u{
     padding-top: 2%;
     max-width: 100%;
 }
-#des{
-    font-size: 20px;
-    margin-bottom: 2%;
-}
 #left {
     text-align: left;;
     width: 100%;
@@ -85,19 +83,25 @@ u{
 }
 #right{
     text-align: left;
-    width: 200%;
+    width: 150%;
     vertical-align: top;
     margin-top: -10%;
     border-left: 2px double #cccccc;
    }
 .page-las{
-    text-align: left;
+    text-align: left;;
+}
+#des{
+    font-size: 14px;
+    margin-bottom: 2%;
 }
 .page-las1{
-    text-align: center;;
+    text-align: center;
 }
 .b2b{
     display: inline-block;
     width: 320px;
     vertical-align: top;
+}
 /* Start of CURRY CHICKEN */
+}
